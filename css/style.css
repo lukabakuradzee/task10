@@ -2,12 +2,12 @@
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /* header */
 header {
   width: 95%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 0 auto;
   padding: 24px 0;
 }
@@ -58,3 +58,77 @@ a:hover {
 .button_action:hover {
   background-color: #ffc800;
 }
+
+/* section 1 */
+.section1 {
+  width: 80%;
+  padding: 64px 0;
+  /* border: 2px  solid green; */
+  margin-inline: auto;
+}
+
+.section1_box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1_div1 {
+  width: 45%;
+  height: 100%;
+  margin-top: 70px;
+  /* border: 1px  solid green; */
+
+}
+
+.section1_heading {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 60px;
+letter-spacing: -1px;
+color: #000000;
+margin-bottom: 24px;
+}
+
+.section1_paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: #000000;
+  
+
+}
+
+.section1_div_child {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.div_child_paragraph {
+  width: 236px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.section1_div2 {
+  width: 45%;
+  height: 430px;
+}
+
+.room1_photo {
+  width: 100%;
+  height: 100%;
+}
+
