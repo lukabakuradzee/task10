@@ -2,7 +2,7 @@
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /* header */
 header {
@@ -12,11 +12,21 @@ header {
   padding: 24px 0;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.headerlogo_mobile {
+  display: none;
 }
+
+.burgermenu {
+  display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
 
 ul {
   display: flex;
@@ -310,6 +320,8 @@ a:hover {
   background-color: #ffc800;
   transform: scale(1.1);
 }
+
+/* footer */
 
 footer {
   margin: 0 auto;
