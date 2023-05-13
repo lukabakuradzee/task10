@@ -243,3 +243,67 @@ a:hover {
   color: #ffffff;
   margin-bottom: 8px;
 }
+
+/* section4  */
+.section4 {
+  margin: 0 auto;
+  padding: 192px 0;
+  height: 566px;
+  background-image: url("../photos/Paris-apartment-vintage-interiors-Champeau-Wilde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section4_box {
+  width: 35%;
+  border: 2px solid red;
+  margin-inline: auto;
+}
+
+.tagline_heading {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  margin-bottom: 12px;
+}
+
+.section4_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.button_white {
+  padding: 12px 24px;
+  background-color: white;
+  color: #000000;
+  border-radius: 32px;
+  border-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: block;
+  margin-inline: auto;
+  transition-duration: 1s;
+}
+
+.button_white:hover {
+  cursor: pointer;
+  background-color: #ffc800;
+  transform: scale(1.1);
+}
