@@ -2,7 +2,7 @@
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /* header */
 header {
@@ -36,6 +36,7 @@ ul li a {
 
 a:hover {
   color: #ffc800;
+  text-decoration: underline;
 }
 
 .button_action {
@@ -257,7 +258,7 @@ a:hover {
 
 .section4_box {
   width: 35%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-inline: auto;
 }
 
@@ -306,4 +307,59 @@ a:hover {
   cursor: pointer;
   background-color: #ffc800;
   transform: scale(1.1);
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 96px 0;
+}
+
+.footer_box {
+  width: 75%;
+  /* border: 2px solid red; */
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_div1 {
+  /* border: 2px solid red; */
+  width: 20%;
+}
+
+.footer_div_heading {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 16px;
+}
+
+.footer_div_text {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.subscribe {
+  margin-bottom: 24px;
+}
+
+
+.news_letter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
 }
