@@ -79,4 +79,23 @@
 
 }
 
+
+}
+
+@media (max-width: 665px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav {
+    display: none;
+  }
+
+  .headerlogo_mobile {
+    display: block;
+  }
+
+  .burgermenu {
+    display: block;
+  }
 }
